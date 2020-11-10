@@ -94,7 +94,7 @@ ggplot(stepsperday, aes(x=steps)) +
       ylab("Frequency") +
       ggtitle("Histogram of the Total Number of Steps Taken Each Day")
 ```
-
+![](https://github.com/coralnaces/RepData_PeerAssessment1/blob/master/plot1.png)
 **What is the average daily activity pattern?**
 
 1. Make a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis).
@@ -114,7 +114,7 @@ ggplot(average, aes(x = interval, y = steps)) +
       ylab("Average steps") +
       ggtitle("Average daily activity")
 ```
-
+![](https://github.com/coralnaces/RepData_PeerAssessment1/blob/master/plot2.png)
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains
 the maximum number of steps?
@@ -192,6 +192,7 @@ ggplot(newstepsperday, aes(x=steps)) +
       ylab("Frequency") +
       ggtitle("New Histogram of the Total Number of Steps Taken Each Day")
 ```
+![](https://github.com/coralnaces/RepData_PeerAssessment1/blob/master/plot3.png)
 
 The values of the mean and median are still the same with before imputing the data.
 
@@ -224,6 +225,7 @@ ggplot(meannewdata, aes(x = interval, y = steps)) +
       ggtitle("Average steps in 5-minute interval")
 ```
 
+![](https://github.com/coralnaces/RepData_PeerAssessment1/blob/master/plot4.png)
 
 
 
